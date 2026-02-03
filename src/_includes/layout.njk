@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ title }} | Oumar-Julien Gaudens</title>
+  <meta name="description" content="Portfolio d'Oumar-Julien Gaudens - Étudiant en Cybersécurité, Réseaux et Développement" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  
+  <!-- Navigation avec photo en bulle -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="/" class="nav-photo-link">
+        <div class="nav-photo-bubble">
+          <img src="/assets/images/photo.jpg" alt="Oumar-Julien Gaudens" class="nav-photo">
+        </div>
+      </a>
+      
+      <div class="nav-links">
+        <a href="/" class="nav-link">Accueil</a>
+        <a href="/CV/" class="nav-link">CV</a>
+        <a href="/about/" class="nav-link">À propos</a>
+        <a href="/projects/" class="nav-link">Projets</a>
+        <a href="/experience/" class="nav-link">Parcours</a>
+        <a href="/skills/" class="nav-link">Compétences</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer de thème">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Terminal animation -->
+  <div class="terminal-wrapper">
+    <div class="terminal" id="terminal"></div>
+  </div>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    {{ content | safe }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>&copy; 2026 Oumar-Julien Gaudens • Portfolio Cybersécurité & Tech</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="/assets/js/theme.js"></script>
+
+</body>
+</html>
