@@ -32,6 +32,8 @@ jobs:
       
       - name: Install dependencies
         run: npm install
+      - name: Install dependencies
+        run: npm install markdown-it
       
       - name: Build site
         run: npm run build
