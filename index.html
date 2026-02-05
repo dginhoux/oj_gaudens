@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accueil | Oumar-Julien Gaudens</title>
+  <meta name="description" content="Portfolio d'Oumar-Julien Gaudens - Étudiant en Cybersécurité, Réseaux et Développement" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  
+  <!-- Navigation avec photo en bulle -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="/" class="nav-photo-link">
+        <div class="nav-photo-bubble">
+          <img src="/assets/images/photo.png" alt="Oumar-Julien Gaudens" class="nav-photo">
+        </div>
+      </a>
+      
+      <div class="nav-links">
+        <a href="/" class="nav-link">Accueil</a>
+        <a href="/CV/" class="nav-link">CV</a>
+        <a href="/about/" class="nav-link">À propos</a>
+        <a href="/projects/" class="nav-link">Projets</a>
+        <a href="/experience/" class="nav-link">Parcours</a>
+        <a href="/skills/" class="nav-link">Compétences</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer de thème">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Terminal animation -->
+  <div class="terminal-wrapper">
+    <div class="terminal" id="terminal"></div>
+  </div>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    <h1>Projets cyber / tech</h1>
+<p>Tous mes projets sont réalisés dans un cadre <strong>pédagogique, contrôlé et légal</strong>.<br>
+Le but n'est jamais de nuire, mais d'apprendre et de comprendre les mécanismes de sécurité.</p>
+<hr>
+<h2>🗜 Étude d'une zip bomb</h2>
+<div class="card">
+<p>J'ai étudié le principe d'une zip bomb pour comprendre :</p>
+<ul>
+<li>la surcharge de ressources</li>
+<li>les risques pour les systèmes</li>
+<li>l'importance des limites de décompression</li>
+</ul>
+<p>Cela m'a permis de comprendre comment des fichiers peuvent provoquer un déni de service.</p>
+</div>
+<h2>🔐 Étude des attaques par force brute (Hydra)</h2>
+<div class="card">
+<p>J'ai utilisé Hydra en laboratoire pour comprendre :</p>
+<ul>
+<li>le fonctionnement des attaques par force brute</li>
+<li>l'importance des mots de passe robustes</li>
+<li>le rôle des protections comme le verrouillage de compte</li>
+</ul>
+</div>
+<h2>🌐 Analyse réseau (Wireshark)</h2>
+<div class="card">
+<p>Wireshark m'a permis de :</p>
+<ul>
+<li>voir les paquets réseau</li>
+<li>comprendre TCP/IP</li>
+<li>observer HTTP et DNS</li>
+<li>visualiser concrètement les communications</li>
+</ul>
+</div>
+<h2>🧪 Sécurité web</h2>
+<div class="card">
+<p>J'ai étudié :</p>
+<ul>
+<li>XSS</li>
+<li>injections SQL</li>
+<li>NoSQL</li>
+</ul>
+<p>Pour comprendre :</p>
+<ul>
+<li>comment ces attaques fonctionnent</li>
+<li>quels dégâts elles peuvent causer</li>
+<li>comment les développeurs peuvent les empêcher</li>
+</ul>
+</div>
+<h2>🐍 Scripts Python</h2>
+<div class="card">
+<p>J'ai développé :</p>
+<ul>
+<li>des scripts de chiffrement/déchiffrement</li>
+<li>des scripts pédagogiques simulant des attaques par force brute</li>
+<li>un scanner de ports TCP inspiré de Nmap</li>
+</ul>
+<p>Ces projets m'ont aidé à progresser en algorithmique et en logique.</p>
+<p><strong>Objectif professionnel :</strong> pentester / ingénieur sécurité.</p>
+</div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>&copy; 2026 Oumar-Julien Gaudens • Portfolio Cybersécurité & Tech</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="/assets/js/theme.js"></script>
+
+</body>
+</html>

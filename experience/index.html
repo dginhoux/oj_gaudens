@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parcours | Oumar-Julien Gaudens</title>
+  <meta name="description" content="Portfolio d'Oumar-Julien Gaudens - Étudiant en Cybersécurité, Réseaux et Développement" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  
+  <!-- Navigation avec photo en bulle -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="/" class="nav-photo-link">
+        <div class="nav-photo-bubble">
+          <img src="/assets/images/photo.png" alt="Oumar-Julien Gaudens" class="nav-photo">
+        </div>
+      </a>
+      
+      <div class="nav-links">
+        <a href="/" class="nav-link">Accueil</a>
+        <a href="/CV/" class="nav-link">CV</a>
+        <a href="/about/" class="nav-link">À propos</a>
+        <a href="/projects/" class="nav-link">Projets</a>
+        <a href="/experience/" class="nav-link">Parcours</a>
+        <a href="/skills/" class="nav-link">Compétences</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer de thème">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Terminal animation -->
+  <div class="terminal-wrapper">
+    <div class="terminal" id="terminal"></div>
+  </div>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    <h1>Mon Parcours</h1>
+<p style="text-align: center; font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem;">
+Formation académique, expérience professionnelle et projets personnels
+</p>
+<hr>
+<h2>🎓 Formation Académique</h2>
+<div class="card">
+<h3>Bac Pro CIEL – Cybersécurité, Informatique et Réseaux, Électronique</h3>
+<p><strong>📍 Lycée privé Saint-Erembert, Saint-Germain-en-Laye</strong><br>
+<strong>📅 2025-2026 - Actuellement en Première</strong></p>
+<p><strong>Programme et compétences développées :</strong></p>
+<ul>
+<li>Cybersécurité et protection des systèmes</li>
+<li>Administration réseau et infrastructure</li>
+<li>Programmation et développement</li>
+<li>Électronique et systèmes embarqués</li>
+<li>Virtualisation et cloud computing</li>
+</ul>
+<p><strong>Projets en cours :</strong></p>
+<ul>
+<li>Configuration d'infrastructures réseau</li>
+<li>Développement d'applications sécurisées</li>
+<li>Mise en place de solutions de supervision</li>
+<li>Projets personnels en cybersécurité</li>
+</ul>
+</div>
+<div class="card">
+<h3>Classe de Seconde</h3>
+<p><strong>📍 Lycée Lavoisier, Porcheville</strong><br>
+<strong>📅 2024-2025</strong></p>
+<ul>
+<li>Découverte des métiers de l'informatique</li>
+<li>Bases de la programmation</li>
+<li>Orientation vers la cybersécurité</li>
+</ul>
+</div>
+<hr>
+<h2>💼 Expérience Professionnelle</h2>
+<div class="card">
+<h3>🏢 Stage au Ministère de l'Écologie (DNUM)</h3>
+<p><strong>📍 La Défense</strong><br>
+<strong>📅 2025 - 6 semaines</strong><br>
+<strong>🎯 Stage en infrastructure numérique</strong></p>
+<p><strong>Missions techniques accomplies :</strong></p>
+<p><strong>Réseau et infrastructure</strong></p>
+<ul>
+<li>Configuration avancée de switchs réseau</li>
+<li>Mise en place de VLANs pour segmentation</li>
+<li>Réalisation de connexions physiques et logiques</li>
+<li>Tests et validation de la connectivité</li>
+</ul>
+<p><strong>Virtualisation</strong></p>
+<ul>
+<li>Déploiement de serveurs sous Proxmox</li>
+<li>Configuration de machines virtuelles</li>
+<li>Gestion des ressources et allocation</li>
+<li>Supervision des performances</li>
+</ul>
+<p><strong>Systèmes de monitoring</strong></p>
+<ul>
+<li>Participation à l'installation d'outils de supervision</li>
+<li>Configuration de systèmes de gestion des serveurs</li>
+<li>Mise en place d'alertes et tableaux de bord</li>
+<li>Monitoring des applications critiques</li>
+</ul>
+<p><strong>Compétences professionnelles acquises :</strong></p>
+<ul>
+<li>Travail en équipe dans un environnement ministériel</li>
+<li>Respect des procédures de sécurité strictes</li>
+<li>Communication technique avec différents services</li>
+<li>Documentation des interventions</li>
+<li>Gestion des priorités et des délais</li>
+</ul>
+</div>
+<hr>
+<h2>💻 Projets Personnels en Cybersécurité</h2>
+<div class="card">
+<h3>Formation pratique et autodidacte</h3>
+<p><strong>Technologies et outils maîtrisés :</strong></p>
+<ul>
+<li>Python pour l'automatisation et le scripting</li>
+<li>Kali Linux et outils de pentesting</li>
+<li>Configuration de réseaux virtuels</li>
+<li>Docker pour l'isolation d'environnements</li>
+</ul>
+<p><strong>Réalisations concrètes :</strong></p>
+<ul>
+<li>Site web pour une pizzeria (HTML, JavaScript, Python)</li>
+<li>Scripts de sécurité et automatisation</li>
+<li>Laboratoire virtuel de tests de sécurité</li>
+<li>Veille technologique continue sur la cybersécurité</li>
+</ul>
+</div>
+<hr>
+<h2>🏀 Engagement Sportif et Associatif</h2>
+<div class="card">
+<h3>Basket-ball - ASM Mantes</h3>
+<p><strong>🏆 Équipe U18M - Régional 4 (Équipe 1)</strong><br>
+<strong>📅 Pratique régulière - Compétition</strong></p>
+<p><strong>Valeurs sportives développées :</strong></p>
+<ul>
+<li>Esprit d'équipe et cohésion</li>
+<li>Discipline et rigueur</li>
+<li>Gestion du stress en compétition</li>
+<li>Persévérance et dépassement de soi</li>
+<li>Leadership et communication</li>
+</ul>
+<p><strong>Engagement :</strong> 2 entraînements par semaine + matchs le weekend</p>
+</div>
+<div class="card">
+<h3>Actions Solidaires</h3>
+<p><strong>Épicerie solidaire</strong></p>
+<ul>
+<li>Participation à l'organisation d'une collecte alimentaire</li>
+<li>Vente à prix solidaire (1€) pour personnes en difficulté</li>
+<li>Sensibilisation à l'entraide sociale</li>
+</ul>
+<p><strong>Compétences civiques :</strong></p>
+<ul>
+<li>Sens du service et de l'engagement</li>
+<li>Organisation d'événements</li>
+<li>Travail bénévole</li>
+</ul>
+</div>
+<hr>
+<h2>📜 Diplômes et Certifications</h2>
+<div class="card">
+<p><strong>Service National Universel (SNU)</strong><br>
+📅 Juillet 2025</p>
+<ul>
+<li>Engagement citoyen et volontaire</li>
+<li>Formation aux premiers secours</li>
+<li>Développement du sens de l'organisation</li>
+<li>Travail en groupe et responsabilité collective</li>
+</ul>
+<hr>
+<p><strong>Diplôme National du Brevet</strong><br>
+📍 Collège privé Notre-Dame, Mantes-la-Jolie<br>
+📅 2023-2024</p>
+</div>
+<hr>
+<h2>🎯 Objectifs et Perspectives</h2>
+<div class="card">
+<p><strong>Objectifs à court terme (2026)</strong></p>
+<ul>
+<li>Obtention du Bac Pro CIEL</li>
+<li>Stage en entreprise cybersécurité</li>
+<li>Développement de projets personnels</li>
+<li>Participation à des CTF (Capture The Flag)</li>
+</ul>
+<p><strong>Objectifs à moyen terme (2027-2028)</strong></p>
+<ul>
+<li>Poursuite d'études en cybersécurité (BTS, BUT)</li>
+<li>Obtention de certifications (CEH, CompTIA Security+)</li>
+<li>Alternance en entreprise spécialisée</li>
+</ul>
+<p><strong>Vision professionnelle</strong></p>
+<ul>
+<li>Devenir pentester ou ingénieur sécurité</li>
+<li>Contribuer à la protection des systèmes d'information</li>
+<li>Continuer la veille technologique et l'apprentissage</li>
+</ul>
+</div>
+<hr>
+<p style="text-align: center; margin-top: 3rem; font-size: 1.1rem; color: var(--accent-primary);">
+💡 <strong>Passionné par la cybersécurité, je suis déterminé à construire une carrière dans ce domaine en constante évolution.</strong>
+</p>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>&copy; 2026 Oumar-Julien Gaudens • Portfolio Cybersécurité & Tech</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="/assets/js/theme.js"></script>
+
+</body>
+</html>
